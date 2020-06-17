@@ -8,9 +8,8 @@ https://github.com/codezoo-ltd/SNIPE */
 
 #define PING  1 //보드 하나 PONG 보드에서는 이거 삭제!
 #define PONG  2 //보드 다른 하나
-// 둘 중 하나만 넣어서 각각 업로드 하기
 
-#define CODE  PING    //컴파일 코드 구분을 위한 define
+#define CODE  PING    //컴파일 코드 구분을 위한 define, 각각의 보드 업로드 시 이 부분을 변경해야 함!
 
 //USB to TTL을 이용해서 디버그 메시지를 보기 위한 tx, rx 통신 핀 지정 
 #define TXpin 11
